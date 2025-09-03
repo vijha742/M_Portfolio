@@ -1,20 +1,19 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 
-// --- Reusable Command Palette ---
 function CommandPalette({ open, onClose, commands = [] }) {
   const dialogRef = useRef(null);
   const inputRef = useRef(null);
   const [query, setQuery] = useState("");
+  const [activeIndex, setActiveIndex] = useState(0); // ✅ track selected option
 
   useEffect(() => {
     if (open) {
-      // Focus the input when palette opens
       setTimeout(() => inputRef.current?.focus(), 0);
-      // Prevent background scroll
       document.body.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "";
       setQuery("");
+      setActiveIndex(0); // reset highlight
     }
     return () => {
       document.body.style.overflow = "";
@@ -32,18 +31,34 @@ function CommandPalette({ open, onClose, commands = [] }) {
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, [open, onClose]);
 
-  // Close on ESC
+  // ✅ Keyboard Navigation
   useEffect(() => {
     function onKey(e) {
       if (!open) return;
+
       if (e.key === "Escape") {
-        e.stopPropagation();
+        e.preventDefault();
         onClose();
+      } else if (e.key === "ArrowDown") {
+        e.preventDefault();
+        setActiveIndex((prev) => (prev + 1) % filtered.length);
+      } else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        setActiveIndex(
+          (prev) => (prev - 1 + filtered.length) % filtered.length
+        );
+      } else if (e.key === "Enter") {
+        e.preventDefault();
+        const cmd = filtered[activeIndex];
+        if (cmd) {
+          cmd.action?.();
+          onClose();
+        }
       }
     }
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [open, onClose]);
+  }, [open, activeIndex, onClose]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -89,26 +104,28 @@ function CommandPalette({ open, onClose, commands = [] }) {
         </div>
 
         {/* Results */}
-        <div className="max-h-[90vh]">
+        <div className="max-h-[90vh] overflow-y-auto">
           {filtered.length === 0 ? (
             <div className="px-5 py-6 text-sm text-white/60">No results</div>
           ) : (
             <ul className="divide-y divide-white/5">
-              {filtered.map((cmd) => (
+              {filtered.map((cmd, i) => (
                 <li key={cmd.id}>
                   <button
                     onClick={() => {
                       cmd.action?.();
                       onClose();
                     }}
-                    className="w-full text-left px-5 py-3 hover:bg-white/5 focus:bg-white/10 focus:outline-none"
+                    className={`w-full text-left px-5 py-3 ${
+                      i === activeIndex
+                        ? "bg-white/10 text-white"
+                        : "hover:bg-white/5 text-white/80"
+                    }`}
                   >
                     <div className="flex items-center justify-between">
-                      <span className="text-sm sm:text-base text-white">
-                        {cmd.label}
-                      </span>
+                      <span className="text-sm sm:text-base">{cmd.label}</span>
                       {cmd.kbd ? (
-                        <span className="ml-4 text-[10px] sm:text-xs px-2 py-1 rounded bg-white/10 border border-white/10 text-white/80">
+                        <span className="ml-4 text-[10px] sm:text-xs px-2 py-1 rounded bg-white/10 border border-white/10">
                           {cmd.kbd}
                         </span>
                       ) : null}
