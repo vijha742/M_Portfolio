@@ -41,27 +41,25 @@ function Home() {
             alt=""
           />
           <h1 className="text-4xl" style={{ fontFamily: "'VT323', monospace" }}>
-            Lorem ipsum - Lorem, ipsum dolor.
+            Vikas Jha - Backend Developer
           </h1>
           <p
             className="text-lg flex items-center flex-wrap"
             style={{ fontFamily: "'Share Tech Mono', monospace" }}
           >
-            Lorem ipsum dolor sit amet consectetur{" "}
-            <span className="inline-flex items-center justify-start text-sm bg-blue-300 px-2 py-1 rounded ml-2">
-              <img className="w-[20px] h-[20px] mr-1" src={Img} alt="" />
-              HELLO GUYS
+            Specializing in{" "}
+            <span className="inline-flex items-center justify-start text-sm px-2 py-1 rounded ml-2">
+              <img className="w-[20px] h-[20px] mr-1" src={JAVA} alt="" />
+              Java
             </span>{" "}
-            <span className="inline-flex items-center text-sm bg-blue-300 px-2 py-1 rounded ml-2">
-              <img className="w-[20px] h-[20px] mr-1" src={Img} alt="" />
-              HELLO GUYS
+            <span className="inline-flex items-center text-sm  px-2 py-1 rounded ml-2">
+              <img className="w-[20px] h-[20px] mr-1" src={SPRINGBOOT} alt="" />
+              Spring Boot
             </span>{" "}
-            <span className="inline-flex items-center text-sm bg-blue-300 px-2 py-1 rounded">
-              <img className="w-[20px] h-[20px] mr-1" src={Img} alt="" />
-              HELLO GUYS
+            <span className="inline-flex items-center text-sm  px-2 py-1 rounded">
+              <img className="w-[20px] h-[20px] mr-1" src={POSTGRESQL} alt="" />
+              PostgreSql
             </span>{" "}
-            Tum kyu chale aate ho Lorem ipsum dolor sit amet. Lorem ipsum dolor
-            sit amet consectetur adipisicing.
           </p>
 
           <div className="mt-10 flex items-center justify-start">
@@ -82,7 +80,7 @@ function Home() {
             </button>
           </div>
           <div className="mt-15" style={{ fontFamily: "'Doto', sans-serif" }}>
-            Feature
+            Featured
           </div>
           <div
             style={{ fontFamily: "'Share Tech Mono', monospace" }}
@@ -97,50 +95,30 @@ function Home() {
                 <img
                   className="rounded-t-xl"
                   src="https://via.placeholder.com/500x250"
-                  H
-                  alt="NotesBuddy Screenshot"
+                  alt="Event Management System Screenshot"
                 />
               </div>
               <div className="p-5">
-                <h3
-                  className="text-xl mb-2 text-white"
-                  style={{ fontFamily: "'Share Tech Mono', monospace" }}
-                >
-                  NotesBuddy
+                <h3 className="text-xl mb-2 text-white" style={{ fontFamily: "'Share Tech Mono', monospace" }}>
+                  Event Management System
                 </h3>
-                <p
-                  className="text-gray-400 text-sm mb-4"
-                  style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                >
-                  A comprehensive study platform with notes, flashcards,
-                  quizzes, AI chatbot, and interactive learning tools.
+                <p className="text-gray-400 text-sm mb-4" style={{ fontFamily: "'JetBrains Mono', monospace" }}>
+                  A full-stack event management platform with secure role-based access,
+                  dynamic event metadata handling, and streamlined participant tracking.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">
-                    Next.js
-                  </span>
-                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">
-                    TypeScript
-                  </span>
-                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">
-                    Tailwind
-                  </span>
-                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">
-                    MongoDB
-                  </span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">Spring Boot 3.4</span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">Java 21</span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">PostgreSQL</span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">Spring Security</span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">OAuth2</span>
                 </div>
-                <div
-                  className="text-xs px-2 py-1 rounded inline-block"
-                  style={{
-                    fontFamily: "'JetBrains Mono', monospace",
-                    backgroundColor: "#064E3B",
-                    color: "#6EE7B7",
-                  }}
-                >
-                  All Systems Operational
+                <div className="text-xs px-2 py-1 rounded inline-block" style={{ fontFamily: "'JetBrains Mono', monospace", backgroundColor: "#064E3B", color: "#6EE7B7" }}>
+                  Backend-Driven · Robust
                 </div>
               </div>
             </div>
+
 
             {/* Card 2 */}
             <div className="bg-[#111] rounded-xl overflow-hidden shadow-lg border border-gray-800 hover:border-gray-600 transition-all duration-300 hover:scale-[1.02]">
@@ -148,49 +126,32 @@ function Home() {
                 <img
                   className="rounded-t-xl"
                   src="https://via.placeholder.com/500x250"
-                  alt="Appwrite MCP Server Screenshot"
+                  alt="GitHub Analytics Platform Screenshot"
                 />
               </div>
               <div className="p-5">
-                <h3
-                  className="text-xl mb-2 text-white"
-                  style={{ fontFamily: "'Share Tech Mono', monospace" }}
-                >
-                  Appwrite MCP Server
+                <h3 className="text-xl mb-2 text-white" style={{ fontFamily: "'Share Tech Mono', monospace" }}>
+                  GitHub Analytics Platform
                 </h3>
-                <p
-                  className="text-gray-400 text-sm mb-4"
-                  style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                >
-                  Model Context Protocol server for seamless Appwrite database
-                  operations with 7 powerful tools and 99.9% success rate.
+                <p className="text-gray-400 text-sm mb-4" style={{ fontFamily: "'JetBrains Mono', monospace" }}>
+                  An analytics engine for developer contributions with gamified achievements,
+                  GraphQL APIs, real-time dashboards, and multi-auth support.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">
-                    TypeScript
-                  </span>
-                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">
-                    Node.js
-                  </span>
-                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">
-                    Appwrite
-                  </span>
-                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">
-                    Tailwind
-                  </span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">Spring Boot</span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">Java 21</span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">GraphQL</span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">Next.js 14</span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">TypeScript</span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">Tailwind CSS</span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">PostgreSQL</span>
                 </div>
-                <div
-                  className="text-xs px-2 py-1 rounded inline-block"
-                  style={{
-                    fontFamily: "'JetBrains Mono', monospace",
-                    backgroundColor: "#064E3B",
-                    color: "#6EE7B7",
-                  }}
-                >
-                  All Systems Operational
+                <div className="text-xs px-2 py-1 rounded inline-block" style={{ fontFamily: "'JetBrains Mono', monospace", backgroundColor: "#1E3A8A", color: "#93C5FD" }}>
+                  Analytics-Driven · Scalable
                 </div>
               </div>
             </div>
+
 
             {/* Card 3 */}
             <div className="bg-[#111] rounded-xl overflow-hidden shadow-lg border border-gray-800 hover:border-gray-600 transition-all duration-300 hover:scale-[1.02]">
@@ -198,324 +159,261 @@ function Home() {
                 <img
                   className="rounded-t-xl"
                   src="https://via.placeholder.com/500x250"
-                  alt="Spotify Clone Screenshot"
+                  alt="GitHub Analytics Platform Screenshot"
                 />
               </div>
               <div className="p-5">
-                <h3
-                  className="text-xl mb-2 text-white"
-                  style={{ fontFamily: "'Share Tech Mono', monospace" }}
-                >
-                  Spotify Clone
+                <h3 className="text-xl mb-2 text-white" style={{ fontFamily: "'Share Tech Mono', monospace" }}>
+                  GitHub Analytics Platform
                 </h3>
-                <p
-                  className="text-gray-400 text-sm mb-4"
-                  style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                >
-                  Music streaming web app with playlists, search, and responsive
-                  UI.
+                <p className="text-gray-400 text-sm mb-4" style={{ fontFamily: "'JetBrains Mono', monospace" }}>
+                  An analytics engine for developer contributions with gamified achievements,
+                  GraphQL APIs, real-time dashboards, and multi-auth support.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">
-                    React
-                  </span>
-                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">
-                    Node.js
-                  </span>
-                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">
-                    Express
-                  </span>
-                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">
-                    MongoDB
-                  </span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">Spring Boot</span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">Java 21</span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">GraphQL</span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">Next.js 14</span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">TypeScript</span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">Tailwind CSS</span>
+                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">PostgreSQL</span>
                 </div>
-                <div
-                  className="text-xs px-2 py-1 rounded inline-block"
-                  style={{
-                    fontFamily: "'JetBrains Mono', monospace",
-                    backgroundColor: "#064E3B",
-                    color: "#6EE7B7",
-                  }}
-                >
-                  All Systems Operational
+                <div className="text-xs px-2 py-1 rounded inline-block" style={{ fontFamily: "'JetBrains Mono', monospace", backgroundColor: "#1E3A8A", color: "#93C5FD" }}>
+                  Analytics-Driven · Scalable
                 </div>
               </div>
             </div>
+
 
             {/* Card 4 */}
-            <div className="bg-[#111] rounded-xl overflow-hidden shadow-lg border border-gray-800 hover:border-gray-600 transition-all duration-300 hover:scale-[1.02]">
-              <div className="bg-gradient-to-tr from-pink-500 via-purple-500 to-blue-500 p-[2px] rounded-t-xl">
+            <div className="mt-25" style={{ fontFamily: "'Doto', sans-serif" }}>
+              About
+            </div>
+            <div
+              style={{ fontFamily: "'Share Tech Mono', monospace" }}
+              className="text-4xl font-bold"
+            >
+              Me
+            </div>
+            <div className="flex mb-30 mt-20 flex-row items-center gap-8 bg-[#0F0F0F] p-6 rounded-lg max-w-3xl">
+              {/* Avatar Section */}
+              <div className="w-[240px] h-[80vh] rounded-full flex items-start justify-center overflow-hidden">
                 <img
-                  className="rounded-t-xl"
-                  src="https://via.placeholder.com/500x250"
-                  alt="Portfolio Builder Screenshot"
+                  src="https://i.pinimg.com/736x/00/fe/19/00fe191b0c4dde7d29d81c67bee0f0cb.jpg"
+                  alt="Profile Avatar"
+                  className="w-full rounded-full object-cover"
                 />
               </div>
-              <div className="p-5">
-                <h3
-                  className="text-xl mb-2 text-white"
-                  style={{ fontFamily: "'Share Tech Mono', monospace" }}
+
+              {/* Text + Skills */}
+              <div className="flex flex-col gap-3">
+                {/* Name */}
+                <h2
+                  style={{ fontFamily: "'VT323', monospace" }}
+                  className="text-white text-xl font-bold"
                 >
-                  Portfolio Builder
-                </h3>
+                  Vikas Jha
+                </h2>
+
+                {/* Description */}
                 <p
-                  className="text-gray-400 text-sm mb-4"
-                  style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                  style={{ fontFamily: "'Share Tech Mono', monospace" }}
+                  className="text-gray-300 text-sm max-w-xl"
                 >
-                  Drag-and-drop portfolio builder with instant preview and
-                  export.
+                  I'm a Full Stack web developer and Open Source Contributor, I
+                  love building products to solve real-world problems. I'm
+                  specialized in building MVP's.
                 </p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">
-                    React
-                  </span>
-                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">
-                    GSAP
-                  </span>
-                  <span className="bg-gray-800 text-gray-200 text-xs px-2 py-1 rounded">
-                    Tailwind
-                  </span>
-                </div>
-                <div
-                  className="text-xs px-2 py-1 rounded inline-block"
-                  style={{
-                    fontFamily: "'JetBrains Mono', monospace",
-                    backgroundColor: "#78350F",
-                    color: "#FCD34D",
-                  }}
-                >
-                  Building in Progress
-                </div>
-              </div>
-            </div>
-          </div>
 
-          <div className="mt-25" style={{ fontFamily: "'Doto', sans-serif" }}>
-            Feature
-          </div>
-          <div
-            style={{ fontFamily: "'Share Tech Mono', monospace" }}
-            className="text-4xl font-bold"
-          >
-            Projects
-          </div>
-          <div className="flex mb-30 mt-20 flex-row items-center gap-8 bg-[#0F0F0F] p-6 rounded-lg max-w-3xl">
-            {/* Avatar Section */}
-            <div className="w-[240px] h-[80vh] rounded-full flex items-start justify-center overflow-hidden">
-              <img
-                src="https://i.pinimg.com/736x/00/fe/19/00fe191b0c4dde7d29d81c67bee0f0cb.jpg"
-                alt="Profile Avatar"
-                className="w-full rounded-full object-cover"
-              />
-            </div>
+                {/* Skills */}
 
-            {/* Text + Skills */}
-            <div className="flex flex-col gap-3">
-              {/* Name */}
-              <h2
-                style={{ fontFamily: "'VT323', monospace" }}
-                className="text-white text-xl font-bold"
-              >
-                Vikas Jha
-              </h2>
-
-              {/* Description */}
-              <p
-                style={{ fontFamily: "'Share Tech Mono', monospace" }}
-                className="text-gray-300 text-sm max-w-xl"
-              >
-                I'm a Full Stack web developer and Open Source Contributor, I
-                love building products to solve real-world problems. I'm
-                specialized in building MVP's.
-              </p>
-
-              {/* Skills */}
-
-              <div className="space-y-6">
-                {/* Languages */}
-                <div>
-                  <h3 className="text-gray-400 text-sm font-semibold mb-2">
-                    Languages
-                  </h3>
-                  <div className="flex flex-wrap gap-2">
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={JAVA} alt="Java" className="w-4 h-4" /> Java
-                      (Primary)
-                    </div>
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={PYTHON} alt="" className="w-4 h-4" /> Python
-                    </div>
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={JS} alt="" className="w-4 h-4" /> JavaScript
+                <div className="space-y-6">
+                  {/* Languages */}
+                  <div>
+                    <h3 className="text-gray-400 text-sm font-semibold mb-2">
+                      Languages
+                    </h3>
+                    <div className="flex flex-wrap gap-2">
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={JAVA} alt="Java" className="w-4 h-4" /> Java
+                        (Primary)
+                      </div>
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={PYTHON} alt="" className="w-4 h-4" /> Python
+                      </div>
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={JS} alt="" className="w-4 h-4" /> JavaScript
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                {/* Frameworks */}
-                <div>
-                  <h3 className="text-gray-400 text-sm font-semibold mb-2">
-                    Frameworks
-                  </h3>
-                  <div className="flex flex-wrap gap-2">
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={SPRINGBOOT} alt="" className="w-4 h-4" /> Spring
-                      Boot
-                    </div>
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={REACT} alt="" className="w-4 h-4" /> React
-                    </div>
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={NEXT} alt="Next.js" className="w-4 h-4" />{" "}
-                      Next.js
-                    </div>
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={KIVY} alt="Kivy" className="w-4 h-4" /> Kivy
+                  {/* Frameworks */}
+                  <div>
+                    <h3 className="text-gray-400 text-sm font-semibold mb-2">
+                      Frameworks
+                    </h3>
+                    <div className="flex flex-wrap gap-2">
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={SPRINGBOOT} alt="" className="w-4 h-4" /> Spring
+                        Boot
+                      </div>
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={REACT} alt="" className="w-4 h-4" /> React
+                      </div>
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={NEXT} alt="Next.js" className="w-4 h-4" />{" "}
+                        Next.js
+                      </div>
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={KIVY} alt="Kivy" className="w-4 h-4" /> Kivy
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                {/* Databases */}
-                <div>
-                  <h3 className="text-gray-400 text-sm font-semibold mb-2">
-                    Databases
-                  </h3>
-                  <div className="flex flex-wrap gap-2">
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img
-                        src={POSTGRESQL}
-                        alt="PostgreSQL"
-                        className="w-4 h-4"
-                      />{" "}
-                      PostgreSQL
-                    </div>
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={SUPERBASE} alt="Supabase" className="w-4 h-4" />{" "}
-                      Supabase
-                    </div>
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={SQLITE} alt="SQLite" className="w-4 h-4" />{" "}
-                      SQLite
+                  {/* Databases */}
+                  <div>
+                    <h3 className="text-gray-400 text-sm font-semibold mb-2">
+                      Databases
+                    </h3>
+                    <div className="flex flex-wrap gap-2">
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img
+                          src={POSTGRESQL}
+                          alt="PostgreSQL"
+                          className="w-4 h-4"
+                        />{" "}
+                        PostgreSQL
+                      </div>
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={SUPERBASE} alt="Supabase" className="w-4 h-4" />{" "}
+                        Supabase
+                      </div>
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={SQLITE} alt="SQLite" className="w-4 h-4" />{" "}
+                        SQLite
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                {/* Tools & Tech */}
-                <div>
-                  <h3 className="text-gray-400 text-sm font-semibold mb-2">
-                    Tools & Tech
-                  </h3>
-                  <div className="flex flex-wrap gap-2">
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={GIT} alt="Git" className="w-4 h-4" /> Git
-                    </div>
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={DOCKER} alt="Docker" className="w-4 h-4" />{" "}
-                      Docker
-                    </div>
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={OAUTH2} alt="OAuth2" className="w-4 h-4" />{" "}
-                      OAuth2
-                    </div>
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={SWAGGER} alt="Swagger" className="w-4 h-4" />{" "}
-                      Swagger
-                    </div>
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={RENDER} alt="Render" className="w-4 h-4" />{" "}
-                      Render
-                    </div>
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={RAILWAY} alt="Railway" className="w-4 h-4" />{" "}
-                      Railway
-                    </div>
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={POSTMAN} alt="Postman" className="w-4 h-4" />{" "}
-                      Postman
+                  {/* Tools & Tech */}
+                  <div>
+                    <h3 className="text-gray-400 text-sm font-semibold mb-2">
+                      Tools & Tech
+                    </h3>
+                    <div className="flex flex-wrap gap-2">
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={GIT} alt="Git" className="w-4 h-4" /> Git
+                      </div>
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={DOCKER} alt="Docker" className="w-4 h-4" />{" "}
+                        Docker
+                      </div>
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={OAUTH2} alt="OAuth2" className="w-4 h-4" />{" "}
+                        OAuth2
+                      </div>
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={SWAGGER} alt="Swagger" className="w-4 h-4" />{" "}
+                        Swagger
+                      </div>
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={RENDER} alt="Render" className="w-4 h-4" />{" "}
+                        Render
+                      </div>
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={RAILWAY} alt="Railway" className="w-4 h-4" />{" "}
+                        Railway
+                      </div>
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={POSTMAN} alt="Postman" className="w-4 h-4" />{" "}
+                        Postman
+                      </div>
                     </div>
                   </div>
-                </div>
 
-                {/* Environment & Workflow */}
-                <div>
-                  <h3 className="text-gray-400 text-sm font-semibold mb-2">
-                    Environment & Workflow
-                  </h3>
-                  <div className="flex flex-wrap gap-2">
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={LINUX} alt="Linux" className="w-4 h-4" /> Linux
-                    </div>
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={NEOVIM} alt="Neovim" className="w-4 h-4" />{" "}
-                      Neovim
-                    </div>
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={BASH} alt="Bash" className="w-4 h-4" /> Bash
-                    </div>
-                    <div
-                      style={{ fontFamily: "'JetBrains Mono', monospace" }}
-                      className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
-                    >
-                      <img src={CICD} alt="CI/CD" className="w-4 h-4" /> CI/CD
+                  {/* Environment & Workflow */}
+                  <div>
+                    <h3 className="text-gray-400 text-sm font-semibold mb-2">
+                      Environment & Workflow
+                    </h3>
+                    <div className="flex flex-wrap gap-2">
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={LINUX} alt="Linux" className="w-4 h-4" /> Linux
+                      </div>
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={NEOVIM} alt="Neovim" className="w-4 h-4" />{" "}
+                        Neovim
+                      </div>
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={BASH} alt="Bash" className="w-4 h-4" /> Bash
+                      </div>
+                      <div
+                        style={{ fontFamily: "'JetBrains Mono', monospace" }}
+                        className="flex items-center gap-1 px-2 py-1 bg-zinc-800 rounded-md text-sm text-white"
+                      >
+                        <img src={CICD} alt="CI/CD" className="w-4 h-4" /> CI/CD
+                      </div>
                     </div>
                   </div>
                 </div>
